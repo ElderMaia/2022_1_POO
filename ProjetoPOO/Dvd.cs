@@ -5,6 +5,7 @@ class Dvd : ICompareble<Dvd> {
   public int Id { get; set; }
   public int Copia { get; set; }
   public int IdFilme { get; set; }
+  public Boolean Disponivel { get; set; }
   public int CompareTo(Dvd obj) {
     return Copia.CompareTo(obj.Copia);
   }
