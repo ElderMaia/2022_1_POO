@@ -1,0 +1,11 @@
+#run = "mcs -out:Main.exe './Aula_0727/Program.cs' './Aula_0727/Categoria.cs' './Aula_0727/NCategoria.cs' './Aula_0727/Produto.cs' './Aula_0727/Cliente.cs' './Aula_0727/VendaItem.cs' ; mono Main.exe"
+
+run = "mcs -out:Main.exe './Aula_0429/lista02ex01.cs' ; mono Main.exe"
+
+#run = "python3 ./Aula_0527/lista03ex02.py"
+#run = "g++ -o main.exe ./Aula_0519/extipos.cpp ; ./main.exe"
+#run = "javac -d ./ './Aula_0527/lista03ex02.java' ; java Program"
+#run = "g++ ./Aula_0603/lista05ex02.c; ./a.out"
+
+#Copia
+#cp -r Aula_0727 Aula_0728
